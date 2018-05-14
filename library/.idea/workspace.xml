@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88a0462b-140d-48f8-b410-d81e8bc986f8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/library/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/library/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/library/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/library/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/predicate/AbstractBinaryPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/BookVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/GameVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/Visitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/VisitorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractBinaryPredicate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/AbstractItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Library.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Predicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/predicate/Predicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PredicateAnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/predicate/PredicateAnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PredicateByDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/predicate/PredicateByDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PredicateByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/predicate/PredicateByName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PredicateByPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/predicate/PredicateByPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PredicateOr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/predicate/PredicateOr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/LibraryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,21 +20,7 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/library/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-              <folding>
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,7 +53,6 @@
         <option value="$PROJECT_DIR$/src/library/Item.java" />
         <option value="$PROJECT_DIR$/src/library/Book.java" />
         <option value="$PROJECT_DIR$/tests/AbstractTest.java" />
-        <option value="$PROJECT_DIR$/tests/LibraryTest.java" />
         <option value="$PROJECT_DIR$/src/visitor/VisitorGames.java" />
         <option value="$PROJECT_DIR$/src/library/Library.java" />
         <option value="$PROJECT_DIR$/src/visitor/GameVisitor.java" />
@@ -98,6 +61,7 @@
         <option value="$PROJECT_DIR$/src/visitor/BookVisitor.java" />
         <option value="$PROJECT_DIR$/src/visitor/Point.java" />
         <option value="$PROJECT_DIR$/src/library/Game.java" />
+        <option value="$PROJECT_DIR$/tests/LibraryTest.java" />
       </list>
     </option>
   </component>
@@ -153,11 +117,6 @@
               <item name="library" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="visitor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="library" type="b2602c69:ProjectViewProjectNode" />
-              <item name="library" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,7 +267,7 @@
       <workItem from="1525836744317" duration="6000" />
       <workItem from="1525836755032" duration="2000" />
       <workItem from="1526235343484" duration="5074000" />
-      <workItem from="1526248883724" duration="6383000" />
+      <workItem from="1526248883724" duration="7383000" />
     </task>
     <task id="LOCAL-00001" summary=":cat: add abstract predicate :cat:">
       <created>1526236165287</created>
@@ -317,16 +276,17 @@
       <option name="project" value="LOCAL" />
       <updated>1526236165287</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=":dog: add visitor :dog:">
+      <created>1526258765812</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526258765812</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryTest - 2018.05.13 at 16h 08m 46s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VisitorTest_visitGames - 2018.05.13 at 18h 50m 41s.xml">
-      <configuration name="VisitorTest.visitGames" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="VisitorTest - 2018.05.13 at 18h 57m 21s.xml">
       <configuration name="VisitorTest" configurationId="JUnit" />
     </history-entry>
@@ -351,13 +311,18 @@
     <history-entry file="VisitorTest - 2018.05.13 at 19h 48m 02s.xml">
       <configuration name="VisitorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="VisitorTest - 2018.05.13 at 20h 43m 15s.xml">
+      <configuration name="VisitorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest - 2018.05.13 at 20h 43m 38s.xml">
+      <configuration name="LibraryTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17194000" />
+    <option name="totallyTimeSpent" value="18194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1297" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -369,7 +334,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3298193" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298193" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -398,7 +363,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=":cat: add abstract predicate :cat:" />
-    <option name="LAST_COMMIT_MESSAGE" value=":cat: add abstract predicate :cat:" />
+    <MESSAGE value=":dog: add visitor :dog:" />
+    <option name="LAST_COMMIT_MESSAGE" value=":dog: add visitor :dog:" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/predicate/PredicateByPrefix.java">
@@ -632,13 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/predicate/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/predicate/PredicateAnd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -685,26 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/AbstractTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/LibraryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="51" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,6 +721,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/LibraryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AbstractTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/library/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -790,6 +749,13 @@
             <element signature="e#213#214#0" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/predicate/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
