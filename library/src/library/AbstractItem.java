@@ -1,5 +1,6 @@
+package library;
 
-public class AbstractItem implements Item {
+public abstract class AbstractItem implements Item {
     private String name;
     private int date;
 
@@ -17,4 +18,5 @@ public class AbstractItem implements Item {
     public int getYear() {
         return date;
     }
+
 }

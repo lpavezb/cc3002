@@ -1,4 +1,6 @@
+package predicate;
 
+import library.Item;
 
 public class PredicateByPrefix implements Predicate {
     public String prefix;

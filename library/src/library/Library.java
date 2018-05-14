@@ -1,26 +1,22 @@
+package library;
 
+import predicate.*;
+import visitor.Visitor;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Library {
     private ArrayList<Item> items;
 
-    public Library() {
-        items = new ArrayList<Item>();
-    }
+    public ArrayList<Item> getItems(){ return items; }
 
-    public boolean isEmpty() {
-        return items.isEmpty();
-    }
+    public Library() { items = new ArrayList<Item>(); }
 
-    public void add(Item anItem) {
-        items.add(anItem);
-    }
+    public boolean isEmpty() { return items.isEmpty(); }
 
-    public int numberOfItems() {
-        return items.size();
-    }
+    public void add(Item anItem) { items.add(anItem); }
+
+    public int numberOfItems() { return items.size(); }
 
     public ArrayList<Item> search(Predicate aPredicate) {
         ArrayList<Item> result = new ArrayList<>();
@@ -48,5 +44,9 @@ public class Library {
 
     public ArrayList<Item> searchAnd(ArrayList<Predicate> predicates) {
         return this.search(new PredicateAnd(predicates));
+    }
+
+    public void accept(Visitor v) {
+        v.visitLibrary(this);
     }
 }

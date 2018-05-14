@@ -1,3 +1,7 @@
+package predicate;
+
+import library.Item;
+
 import java.util.ArrayList;
 
 public class PredicateAnd extends AbstractBinaryPredicate {

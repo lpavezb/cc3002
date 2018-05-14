@@ -1,29 +1,14 @@
 
 
-import org.junit.Before;
-import org.junit.Test;
+import library.*;
+import org.junit.*;
+import predicate.*;
+
 import java.util.*;
 
 import static org.junit.Assert.*;
 
-public class LibraryTest {
-
-    private Library emptyLibrary;
-    private Library library;
-    private Book starcraftBook;
-    private Game starcraftGame;
-
-    @Before
-    public void setUp() {
-        emptyLibrary = new Library();
-        library = new Library();
-        starcraftBook = new Book("Starcraft", 2000);
-        starcraftGame = new Game("Starcraft", 2000);
-
-        library.add(new Book("Le tueur", 2002));
-        library.add(starcraftBook);
-        library.add(starcraftGame);
-    }
+public class LibraryTest extends AbstractTest{
 
     @Test
     public void isEmpty() {
@@ -97,5 +82,4 @@ public class LibraryTest {
             assertTrue(expectedResult.contains(item));
         assertEquals(expectedResult.size(), result.size());
     }
-
 }

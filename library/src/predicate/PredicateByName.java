@@ -1,4 +1,6 @@
+package predicate;
 
+import library.Item;
 
 public class PredicateByName implements Predicate {
     private String nameToMatch;

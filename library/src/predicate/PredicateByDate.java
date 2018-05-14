@@ -1,4 +1,6 @@
+package predicate;
 
+import library.Item;
 
 public class PredicateByDate implements Predicate {
     private int dateToMatch;

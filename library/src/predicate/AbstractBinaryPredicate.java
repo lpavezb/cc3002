@@ -1,3 +1,5 @@
+package predicate;
+
 import java.util.ArrayList;
 
 public abstract class AbstractBinaryPredicate implements Predicate{
